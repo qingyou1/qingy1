@@ -1,0 +1,550 @@
+body,html{
+    height: 100%;
+}
+.zjhlogo{
+    width: 1.89rem;
+    height: 1.89rem;
+    border-radius: 0.1rem;
+    position: absolute;
+    top:2.52rem;
+    left:0;
+    right:0;
+    margin:auto;
+    -webkit-background-clip: text;
+    background: url("../img/zjhlogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: hue 60s  linear;
+}
+@-webkit-keyframes hue {
+    from {
+        -webkit-filter: hue-rotate(0deg);
+    }
+    to {
+        -webkit-filter: hue-rotate(-360deg);
+    }
+}
+.indexZjh{
+    width:100%;
+    height: 100%;
+    background: url("../img/Indexzjh.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.zjhlogin,.zjhreg {
+    width: 3.3rem;
+    height: 1rem;
+    border-radius: 0.55rem;
+    position: absolute;
+    bottom: 2.97rem;
+}
+.zjhlogin{
+    background: #fad84e;
+    right:0.32rem;
+}
+.zjhreg{
+    left:0.32rem;
+    border:1px solid #fad84e;
+}
+.zjhlogin span,.zjhreg span{
+    color:#fff;
+    font-size: 0.4rem;
+    display: block;
+    line-height: 1rem;
+    text-align: center;
+}
+.zjhreg span{
+    color:#fad84e;
+}
+.zjhthird{
+    width: 4.1rem;
+    height: 0.64rem;
+    position: absolute;
+    left:0;
+    right: 0;
+    margin: auto;
+    bottom: 1.36rem;
+}
+.zjhwchat,.zjhqq,.zjhwb{
+    width: 0.64rem;
+    height: 0.64rem;
+    border-radius: 50%;
+    float: left;
+}
+.zjhwchat{
+    background: url("../img/zjhwechat.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.zjhqq{
+    background: url("../img/zjhqq.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.zjhwb{
+    background: url("../img/zjhwb.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.zjhthird span{
+    display: inline-block;
+    margin-left: 0.08rem;
+    margin-right: 0.08rem;
+    width: 0.93rem;
+    height: 0.02rem;
+    background: #e5e5e5;
+    float: left;
+    margin-top: 0.31rem;
+}
+.zjh_Reg,.zjh_Login{
+    width: 100%;
+    height: 100%;
+    background: url("../img/zjhRegBack.png");
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+    background-size: cover;
+    padding-top: 1px;
+    box-sizing: border-box;
+
+}
+.zjh_Login{
+    background: url("../img/zjhback.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Regbox{
+    width: 6.9rem;
+    height: 6.73rem;
+    border-radius: 35px;
+    background: #f4fdfb;
+    margin: 0 auto;
+    margin-top: 4rem;
+    position: relative;
+    padding-top: 1px;
+    box-sizing: border-box;
+}
+.account,.phone,.password{
+    width: 5.78rem;
+    height: 0.78rem;
+    margin-top: 0.76rem;
+    margin-left: 0.52rem;
+    position: relative;
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow: 0 0 6px #848484;
+}
+.phone,.password{
+ margin-top:0.4rem;
+}
+.account input,.phone input,.password input{
+    border: 0;
+    width: 72%;
+    height: 100%;
+    display: block;
+    float: left;
+    margin-left: 0.37rem;
+    font-size: 0.24rem;
+    color:#c5c5c5;
+    font-family: 苹方;
+}
+.account span,.phone span,.password span{
+    display: inline-block;
+    float: left;
+    margin-left: 0.52rem;
+    margin-top: 0.26rem;
+    width: 0.26rem;
+    height: 0.32rem;
+    background: url("../img/zjhacount.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.password span{
+    background: url("../img/zjhmms.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Regbtn{
+    width: 3.3rem;
+    height: 0.98rem;
+    position: absolute;
+    bottom: -0.49rem;
+    left:0;
+    right: 0;
+    margin: auto;
+    background: url("../img/zjhanniu.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 55px;
+    border:0;
+    color:#fff;
+    font-size: 0.4rem;
+    font-family: 苹方;
+}
+.zjhLogin_box{
+    width: 6.9rem;
+    height: 6.09rem;
+    margin: 0 auto;
+    margin-top: 3.67rem;
+    background: url("../img/zjhlogin_box.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 1.7rem;
+    box-sizing: border-box;
+}
+.face{
+    position: absolute;
+    top:-0.03rem;
+    right:0.76rem;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    background:url("../img/zjhface.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px #fad84e;
+}
+.zjhLogin_box label{
+    display: block;
+    font-size: 0.24rem;
+    font-family: 苹方;
+    color:#818181;
+    margin-left: 1.1rem;
+    margin-top: 0.23rem;
+    margin-bottom: 0.1rem;
+}
+.zjhLogin_box label em{
+    font-style: normal;
+    font-family: "San Francisco Display";
+    color:#a4a4a4;
+    font-weight: lighter;
+}
+a{
+    text-decoration: none;
+}
+.zhpass,.zc{
+    font-size: 0.18rem;
+    color:#bfbfbf;
+    display: block;
+}
+.zhpass{
+    float: left;
+
+}
+.zc{
+    float: right;
+}
+.caozuo{
+    width: 5.78rem;
+    height: 0.78rem;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+    line-height: 0.78rem;
+}
+.account .loguser{
+    background: url("../img/zjhloguser.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.password .logpass{
+    background: url("../img/zjhlogpass.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.zhibo{
+    width: 100%;
+    height: 100%;
+    background: #f6f6f6;
+    position: relative;
+}
+.top{
+    width: 7rem;
+    height:4.93rem;
+    border-radius: 25px;
+    box-shadow: 0 0 9px rgba(52,210,175,0.7);
+    /*透明度30%*/
+    margin: 0 auto;
+    background: url("../img/zjhplaytop.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.message,.shezhi{
+    width: 0.5rem;
+    height: 0.5rem;
+    background: url("../img/zjhmes.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top:0.08rem;
+}
+.message{
+    left:0.19rem;
+}
+.shezhi{
+    background: url("../img/zjhshezhi.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    right:0.19rem;
+}
+.touxiang{
+    position: absolute;
+    width: 1.76rem;
+    height: 1.76rem;
+    background: url("../img/zjhtouxiang.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    left:0.19rem ;
+    bottom: 1.13rem;
+}
+.jiyu{
+    position: absolute;
+    bottom: 1.32rem;
+    left:0;
+    right: 0;
+    margin: auto;
+    width: 2.87rem;
+    height: 0.6rem;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.jiyu span{
+    display: block;
+    font-size: 0.3rem;
+    font-family: "San Francisco Display";
+    color:#f98f05;
+
+}
+.jiyu .jiyuEdit{
+    display: block;
+    width: 0.27rem;
+    height: 0.22rem;
+    margin-top: 0.05rem;
+    background: url("../img/zjhxie.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+.jiyu span:nth-of-type(2){
+    display: block;
+    font-size: 0.24rem;
+    font-family: 苹方;
+    color: #949494;
+    float: left;
+}
+.zhibonav{
+    width: 100%;
+    height: 1.13rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display:flex;
+    flex-direction:row;
+
+}
+.zhibonav li{
+    width: 33.33%;
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+.zhibonav li em,.zhibonav li span{
+    display: block;
+    text-align: center;
+    font-family: 苹方;
+    font-style: normal;
+    margin: 0 auto;
+}
+.zhibonav li em{
+    color:#150c00;
+    font-size: 0.36rem;
+    margin-top: 0.08rem;
+}
+.zhibonav li span{
+    color:#bababa;
+    font-size: 0.34rem;
+    font-family: "San Francisco Display";
+}
+.zhibonav li u{
+    display: block;
+    width: 0.7rem;
+    height: 0.02rem;
+    background: #fad84e;
+    margin: 0 auto;
+}
+.zhibonav li.active em,.zhibonav li.active span{
+    color:#50e0c0;
+}
+.zhiboContent,.travelContent{
+    width: 7rem;
+    height: 3.45rem;
+    margin: 0 auto;
+    padding-left: 0.37rem;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+}
+.zhiboContent .Conleft{
+    width: 0.8rem;
+    height: 100%;
+    float: left;
+}
+.zhiboContent .Conleft .date{
+    width: 100%;
+    height: 0.25rem;
+}
+.zhiboContent .Conleft .date h3{
+    font-size: 0.34rem;
+    color:#1e1e1e;
+    font-family: 苹方;
+    float: left;
+}
+.zhiboContent .Conleft .date h4{
+    font-size: 0.2rem;
+    font-family: 苹方;
+    font-weight: normal;
+    float: left;
+    margin-top: 0.13rem;
+}
+.zhiboContent .Conleft .xian{
+    width: 0.02rem;
+    height: 1.6rem;
+    background: #34d2af;
+    margin: 0 auto;
+    margin-top: 0.2rem;
+}
+.zhiboContent .Conleft .playbtn,.zhiboContent .Conleft .writebtn{
+    width: 0.36rem;
+    height: 0.34rem;
+    background: url("../img/zjhzbbtn.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 0.1rem;
+}
+.zhiboContent .Conleft .writebtn{
+    background: url("../img/zjhyj.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 0.35rem;
+    height: 0.4rem;
+}
+.zhiboContent .Conright{
+    width: 5.41rem;
+    height: 100%;
+    float: right;
+}
+.zhiboContent .Conright .rightTop{
+    width: 100%;
+    height: 0.3rem;
+}
+.zhiboContent .Conright .rightTop h1{
+    font-size: 0.3rem;
+    color:#f8b745;
+    float: left;
+}
+.zhiboContent .Conright .rightTop span{
+    display: block;
+    float: right;
+    width:auto;
+    height: auto;
+    font-size: 0.18rem;
+    color:#7e7e7e;
+    margin-top: 0.1rem;
+}
+.zhiboContent .Conright .rightTop span i,.travelContent .Conright .info span i{
+    width: 0.23rem;
+    height: 0.23rem;
+    display: block;
+    float: left;
+    background: url("../img/zjhlvxing.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Conright p{
+    width: 100%;
+    height: auto;
+    color:#666666;
+    font-size: 0.24rem;
+    margin-top: 0.18rem;
+}
+.Conright .Conimg{
+    width: 100%;
+    height: 2.21rem;
+    border-radius: 25px;
+    margin-top: 0.17rem;
+}
+.Conright .Conimg img{
+    width: 100%;
+    height: 100%;
+}
+.travelContent .Conright{
+    width: 5.41rem;
+    height: 2.2rem;
+    margin-top: 0.46rem;
+}
+.travelContent .Conright .rightImg{
+    width: 2.32rem;
+    height: 2.2rem;
+    border-radius: 20px;
+    float: left;
+}
+.travelContent .Conright .rightImg img{
+    width: 100%;
+    height: 100%;
+}
+.travelContent .Conright .info{
+    width: 2.88rem;
+    height: 100%;
+    float: right;
+}
+.travelContent .Conright .info h1{
+    font-size: 0.3rem;
+    color:#f8b745;
+    font-weight: normal;
+    margin-bottom: 0.12rem;
+}
+.travelContent .Conright .info span{
+    float: right;
+    font-size: 0.18rem;
+    color: #7e7e7e;
+    margin-top: 0.3rem;
+}
+body{
+    font-family: PingFangSC-Regular, sans-serif;
+}
+label.error{
+    position: absolute;
+    top:0.3rem;
+    right: 0.2rem;
+    font-size: 0.2rem;
+    color:red;
+}
+#wrapper{
+    position: absolute;
+    top:4.93rem;
+    bottom: 0.98rem;
+    /*left: 0;*/
+    /*z-index: 1;*/
+    width: 100%;  overflow: hidden;
+}

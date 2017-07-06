@@ -1,0 +1,138 @@
+#ldd_body{
+    font-size: 0.3rem;
+}
+#ldd_body .bg{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    bottom:0;
+    background-image: url(../img/ldd_beijing2.png);
+    /*background-color: ;*/
+    background-size: cover;
+}
+#ldd_body .bg .escbox{
+    width: 7rem;
+    height:7.46rem;
+    position: absolute;
+    top:2.08rem;
+    left:0;
+    right:0;
+    margin:auto;
+    background-image: url(../img/ldd_esc.png);
+    background-size: cover;
+    padding: 0.7rem;
+    font-size: 0.24rem;
+}
+#ldd_body .bg .escbox .zbtime{
+    width:100%;
+    height:0.75rem;
+    text-align: center;
+    line-height: 0.75rem;
+    margin-top:1.68rem;
+    color:#8f8f8f;
+}
+#ldd_body .bg .escbox .zbrel{
+    width:100%;
+    height:1.24rem;
+    margin:0 auto;
+}
+#ldd_body .bg .escbox .zbrel ul{
+    overflow: hidden;
+}
+#ldd_body .bg .escbox .zbrel ul li{
+    float: left;
+    color: #686868;
+    margin: 0.15rem 0;
+}
+#ldd_body .bg .escbox .zbrel ul li img{
+    width:0.28rem;
+    height:0.28rem;
+    margin-top: 0.02rem;
+}
+#ldd_body .bg .escbox .zbrel ul li:nth-child(2n){
+    margin-left:0.8rem;
+}
+#ldd_body .bg .escbox .shareSave{
+    width:100%;
+    height: 1.5rem;
+    margin: 0 auto;
+    padding:0.4rem 0.3rem 0 0.3rem;
+    font-size: 0.18rem;
+    color:#9f9f9f;
+}
+#ldd_body .bg .escbox .shareSave .share{
+    float: left;
+    width:3rem;
+    height:100%;
+    padding-left: 0.32rem;
+}
+#ldd_body .bg .escbox .shareSave .share .to{
+    padding-top: 0.15rem;
+    width:1.8rem;
+    height:0.55rem;
+}
+#ldd_body .bg .escbox .shareSave .share .to a img{
+    width:0.5rem;
+    height:0.5rem;
+}
+#ldd_body .bg .escbox .shareSave .share .shareto{
+
+}
+#ldd_body .bg .escbox .shareSave .save{
+    width:1.98rem;
+    height:100%;
+    float: left;
+}
+#ldd_body .bg .escbox .shareSave .save .savebtn{
+    width:0.84rem;
+    height:0.4rem;
+    line-height: 0.4rem;
+    border-radius: 0.2rem;
+    background-color: #54e1c2;
+    position: relative;
+    margin-top:0.15rem;
+}
+#ldd_body .bg .escbox .shareSave .save .savebtn img{
+    position: absolute;
+    width:0.33rem;
+    height:0.33rem;
+    right:0;
+    top:0.035rem;
+}
+#ldd_body .bg .escbox .zbbtn{
+    width: 100%;
+    height:1.32rem;
+    padding: 0.35rem 0.3rem;
+}
+#ldd_body .bg .escbox .zbbtn ul{
+    overflow: hidden;
+}
+#ldd_body .bg .escbox .zbbtn ul li{
+    width: 50%;
+    float: left;
+}
+#ldd_body .bg .escbox .zbbtn ul li div{
+    width:2.14rem;
+    height:0.66rem;
+    border-radius:0.33rem;
+    background-color: yellow;
+    margin:0 auto;
+    text-align: center;
+    line-height: 0.66rem;
+    font-size: 0.3rem;
+}
+#ldd_body .bg .escbox .zbbtn ul li div.longer{
+    background-color: #fff;
+    border:2px solid #fbd128;
+    /*line-height: 0.6rem;*/
+}
+#ldd_body .bg .escbox .zbbtn ul li div.longer a{
+    color:#fbd128;
+}
+#ldd_body .bg .escbox .zbbtn ul li div.nowesc{
+    background-color: #fbd128;
+}
+#ldd_body .bg .escbox .zbbtn ul li div.nowesc a{
+    color:#fff;
+}

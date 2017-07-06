@@ -1,0 +1,176 @@
+#ldd_body {
+    margin-top: 0.88rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 0.45rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    position: absolute;
+    top:0;
+    bottom:0;
+    background-image: url(../img/ldd_beijing1.png);
+    background-size: cover;
+}
+#ldd_body .headinfo{
+    width:100%;
+    height: auto;
+}
+#ldd_body .headinfo ul{
+    width:100%;
+    height:0.6rem;
+    position: relative;
+}
+#ldd_body .headinfo ul li{
+    line-height: 0.6rem;
+    position: absolute;
+}
+#ldd_body .headinfo ul li img{
+    width:0.6rem;
+    height:0.6rem;
+    vertical-align: middle;
+}
+#ldd_body .headinfo ul li.pos{
+    left: -0.5rem;
+    width:2.04rem;
+    height:0.6rem;
+    line-height: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.49);
+    border-radius: 0.3rem;
+    padding-left: 0.7rem;
+    font-size: 0.3rem;
+    color: #fefefe;
+}
+#ldd_body .headinfo ul li.pos img{
+    width:0.2rem;
+    height:0.3rem;
+}
+#ldd_body .headinfo ul li.suo{
+    left:2rem;
+}
+#ldd_body .headinfo ul li.suo img{
+    width:0.23rem;
+    height:0.3rem;
+}
+#ldd_body .headinfo ul li.you{
+    left: 2.5rem;
+}
+#ldd_body .headinfo ul li.you img{
+    width:0.3rem;
+    height:0.3rem;
+}
+#ldd_body .headinfo ul li.close{
+    right: 0rem;
+}
+#ldd_body .headinfo ul li.camera{
+    right: 0.85rem;
+}
+#ldd_body .zbdesc{
+    width:7.03rem;
+    height:3.14rem;
+    background-color: #fff;
+    margin:1.02rem auto;
+    border-radius: 0.2rem;
+    padding:0.3rem 0.35rem;
+}
+#ldd_body .zbdesc .zbtil{
+    font-size: 0.34rem;
+    color:#4c4d4d;
+    position: relative;
+}
+#ldd_body .zbdesc .zbtil .jiedao{
+    position: absolute;
+    right:0;top:0rem;
+    color:#ed1649;
+}
+#ldd_body .zbdesc .zbtil .jiedao img{
+    height:0.3rem;width:0.3rem
+}
+
+#ldd_body .zbdesc .desc{
+    width:100%;
+    height: auto;
+    margin-top: 0.45rem;
+}
+#ldd_body .zbdesc .desc .touxiang{
+    float: left;
+    width: 1.67rem;
+    height:1.67rem;
+    border-radius: 0.1rem;
+}
+#ldd_body .zbdesc .desc .huati{
+    float: left;
+    width:3.33rem;
+    height:1.67rem;
+    margin-left:0.6rem;
+}
+#ldd_body .zbdesc .desc .huati .write{
+    width:3.33rem;
+    height:0.58rem;
+    border-bottom: 1px solid #bbbbbb;
+    font-size: 0.24rem;
+    color:#7a7a7a;
+    text-align: left;
+    line-height: 0.6rem;
+}
+#ldd_body .zbdesc .desc .huati .write img{
+    width:0.29rem;
+    height:0.29rem;
+}
+#ldd_body .zbdesc .desc .huati .ele{
+    width:1.35rem;
+    height:0.42rem;
+    border:1px dotted #4c4d4d;
+    border-radius: 0.15rem;
+    line-height: 0.42rem;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #4c4d4d;
+    margin-top:0.65rem;
+}
+#ldd_body .share{
+    width:3.2rem;
+    height:0.42rem;
+    margin:0 auto;
+}
+#ldd_body .share ul li{
+    height:0.42rem;
+    float: left;
+    line-height: 0.42rem;
+    margin-left: 0.25rem;
+}
+#ldd_body .share ul li:first-child{
+    margin-left: 0;
+}
+#ldd_body .share img{
+    width:0.36rem;
+    height:0.36rem;
+    vertical-align: middle;
+}
+#ldd_body .zbbtnbox{
+    width:100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    margin:0.75rem auto;
+}
+#ldd_body .zbbtnbox a{
+    display: inline-block;
+    width:5.28rem;
+    height:1rem;
+    font-size: 0.4rem;
+    color:#fefefe;
+    position: relative;
+}
+#ldd_body .zbbtnbox a p{
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    top:0rem;
+
+}
+#ldd_body .zbbtnbox a img{
+    width:5.28rem;
+    height:1rem;
+}

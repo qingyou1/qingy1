@@ -1,0 +1,79 @@
+#ldd_footer{
+    width: 100%;
+    height: 0.98rem;
+    background-color: #fff;
+    position: fixed;
+    bottom:0;
+    z-index: 4;
+}
+#ldd_footer a{
+    display: inline-block;
+}
+#ldd_footer ul{
+    height: 100%;
+    width: 100%;
+    line-height: 0.98rem;
+    display: flex;
+    justify-content: space-around;
+}
+#ldd_footer ul li{
+    width: 20%;
+    float: left;
+    height: 0.72rem;
+    margin:auto 0;
+    border-right: 2px dotted #b7d2cf;
+    text-align: center;
+    line-height: 0.01rem;
+}
+#ldd_footer ul li:last-child{
+    border-right: 0;
+}
+#ldd_footer ul li img{
+    width:0.45rem;
+    height:0.45rem;
+}
+#ldd_footer ul li p{
+    font-size: 0.18rem;
+    color: #989898;
+    margin-top: 0.15rem;
+}
+#ldd_footer ul li:nth-child(3) img{
+    width:0.95rem;
+    height:0.95rem;
+    position: absolute;
+    top: -0.28rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#ldd_footer .fabulist{
+    position: absolute;
+    width: 100%;
+    height: 4rem;
+    top:-3.98rem;
+    display: none;
+}
+.zhezhao{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    display: none;
+    z-index: 2;
+}
+#ldd_footer .fabulist .list{
+    height: 2rem;
+    width:100%;
+    text-align: center;
+}
+#ldd_footer .fabulist .list img{
+    width:1.44rem;
+    height:1.44rem;
+}
+#ldd_footer .fabulist .list .left,#ldd_footer .fabulist .list .right{
+    float: left;
+    height:100%;
+    width: 50%;
+}

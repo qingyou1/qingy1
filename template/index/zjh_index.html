@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/zjh_base.css">
+    <link rel="stylesheet" href="{CSS_PATH}/zjh_main.css">
+    <link rel="stylesheet" href="{CSS_PATH}/animate.css">
+    <script src="{JS_PATH}/rem.js"></script>
+    <script src="{JS_PATH}/jquery.js"></script>
+    <!--<script src="{JS_PATH}/login.js"></script>-->
+</head>
+<body style="font-family: 苹方">
+    <div class="indexZjh">
+        <div class="animated bounceInDown zjhlogo" style="animation-duration: 1.3s;"></div>
+        <div class="zjhlogin">
+            <!--href="{LOGIN_PATH}/template/index/zjh_login.html"-->
+            <a href="javascript:;" class="login_In"><span>登录</span></a>
+        </div>
+        <div class="zjhreg">
+            <!--href="{LOGIN_PATH}/template/index/zjh_Reg.html"-->
+            <a href="javascript:;" class="reg_In"><span>注册</span></a>
+        </div>
+        <ul class="zjhthird">
+            <li class="zjhwchat"></li>
+            <span></span>
+            <li class="zjhqq"></li>
+            <span></span>
+            <li class="zjhwb"></li>
+        </ul>
+    </div>
+</body>
+<script>
+    $(".login_In").click(function () {
+        setTimeout(function () {
+            location.href="index.php?m=index&f=login";
+
+        },1000)
+    })
+    $(".reg_In").click(function () {
+        setTimeout(function () {
+            location.href="index.php?m=index&f=login&a=regIn";
+
+        },1000)
+    })
+</script>
+</html>

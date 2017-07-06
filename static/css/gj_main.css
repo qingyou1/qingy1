@@ -1,0 +1,288 @@
+.suolue{
+	width: 100%;
+	height: 3.33rem;
+
+}
+.suolue img{
+	display: block;
+	width: 100%;
+	height: 3.33rem;
+}
+.gj_mainCon{
+	width: 7rem;
+	background: #fff;
+	/*height: 4rem;*/
+	border-radius: 0.05rem;
+	margin: auto;
+	overflow: hidden;
+}
+.maincon_header{
+	width: 100%;
+	padding: 0.34rem 0.33rem;
+	/*height: 2.7rem;*/
+	position:relative;
+	font-size: 0.3rem;
+}
+.h_tit{
+	width: 100%;
+	/*height: 0.58rem;*/
+	overflow: hidden;
+	
+}
+.h_left{
+	float: left;
+	
+}
+.h_left h4 span{
+	font-weight: 400;
+	color:#000;	
+	margin-left: 0.27rem;
+}
+.English{
+	color: #d2d2d2;
+	font-size: 0.24rem;
+}
+.h_right{
+	float: right;
+}
+.h_right a{
+	display: block;
+	height: 100%;
+	padding: ;
+
+}
+.h_right img{
+	width: 0.38rem;
+	height: 0.33rem;
+	display: block;
+	margin-top: 0.04rem;
+}
+.h_right span{
+	
+	font-size: 0.2rem;
+	color: #D2D2D2;
+}
+.h_dingwei{
+	position:relative;
+	height: 0.77rem;
+	width: 100%;
+
+}
+.d_left{
+	width: 1.74rem;
+	height: 0.47rem;
+	background: #54e1c2;
+	border-radius: 0.5rem;
+	color: #fff;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.47rem;
+	position:absolute;
+	left:-0.5rem;
+	top:0.3rem;
+	box-shadow:0.03rem 0.03rem 0.01rem #22c09d;
+}
+.d_left img{
+	display: inline-block;
+
+}
+.d_right{
+	float: right;
+	position: absolute;
+	right:2.09rem;
+	top:0.46rem;
+	color: #d4d4d4;
+	font-size: 0.18rem;
+	height: 0.19rem;
+	line-height: 0.19rem;
+}
+.d_right .yellow{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 0.08rem;
+	background: #fbd128;
+	display: inline-block;
+	line-height: 0.19rem;
+}
+.d_right time{
+	display: inline-block;
+
+}
+.h_zuozhe{
+	width: 6.49rem;
+	/*height: 0.95rem;*/
+	border-bottom: 0.01rem dashed #989898;
+	overflow: hidden;
+	padding: 0.2rem 0.13rem;
+}
+.h_zuozhe img{
+	width: 0.62rem;
+	height: 0.62rem;
+	float: left;
+	margin: auto;
+}
+.z_con{
+	float: left;
+	position: relative;
+	margin-left: 0.13rem;
+}
+.z_con h6{
+	font-size: 0.24rem;
+
+	
+}
+.z_con .dengji{
+	position:absolute;
+	top:0.1rem;
+	right:0;
+	width: 0.41rem;
+	height: 0.16rem;
+	border-radius: 0.5rem;
+	background: #faa41b;
+	color: #fff;
+	font-size: 0.16rem;
+	text-align: center;
+	line-height: 0.16rem;
+}
+.dengji span{
+	font-size: 0.12rem;
+}
+.z_con .qianming{
+	font-size: 0.18rem;
+	color: #d1d1d1;
+}
+.aiticle_list{
+	position:relative;
+	font-size: 0.3rem;
+	padding: 0.32rem 0.32rem;
+}
+.aiticle_list h6{
+	color: #fbd128;
+	font-weight: 300;
+}
+.aiticle_list p{
+	color: #666666;
+}
+.article_img{
+	width: 7.05rem;
+	height: 3.32rem;
+}
+.comment{
+	width: 7rem;
+    background: #fff;
+     height: 7.2rem; 
+    border-radius: 0.15rem;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 0.1rem;
+    font-size: 0.24rem;
+    padding: 0.32rem 0.32rem;
+}
+.ch_left{
+	float: left;
+	width: 0.91rem;
+}
+.ch_comment{
+	color: #34d2af;
+	font-weight: 500;
+}
+.comment_header{
+	overflow: hidden;
+}
+.ch_right{
+	float: right;
+	margin-top: 0.2rem;
+}
+.ch_right img{
+	width: 0.27rem;
+	height: 0.24rem;
+}
+.comment_list{
+	width: 6.16rem;
+	/*height: 1.96rem;*/
+	overflow: hidden;
+	border-bottom:0.01rem solid #cccccc;
+	margin: auto;
+	padding: 0.25rem 0;
+}
+.cl_header{
+	overflow: hidden;
+}
+.cl_headerl{
+	float: left;
+	width: 4rem;
+	height: 100%;
+}
+.cl_headerl img{
+	float: left;
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.cl_headerl span{
+	float: left;
+	height: 100%;
+	margin-left: 0.12rem;
+	font-size: 0.24rem;
+	font-weight: 600;
+}
+.cl_headerl span time{
+	display: block;
+	color: #9f9f9f;
+	font-size: 0.24rem;
+}
+.cl_headerr{
+	float: right;
+}
+.cl_headerr{
+	color: #fad84e;
+}
+.all,.all1{
+	width: 100%;
+	height: 0.74rem;
+	color: #49d5b5;
+	line-height: 0.8rem;
+	text-align: center;
+	cursor: pointer;
+}
+.huifu{
+	width: 100%;
+	/*height: 0.6rem;*/
+	overflow: hidden;
+	padding: 0.13rem 0.22rem;
+}
+.huifu input{
+	float: left;
+}
+.huifu input[name="con"]{
+	width: 4.86rem;
+	height: 0.6rem;
+	border:1px solid #7adec5;
+	border-radius: 0.5rem;
+	padding: 0 0.42rem;
+}
+
+.huifu input[name="submit"]{
+	width: 1.32rem;
+	height: 0.6rem;
+	border:1px solid #7adec5;
+	border-radius: 0.5rem;
+	margin-left: 0.14rem;
+	background: #fff;
+	text-align: center;
+	color: #D4D4D4;
+}
+.huifu input::-webkit-input-placeholder{
+	color: #d4d4d4;
+}
+
+.huifu .like{
+	float: right;
+	width: 0.6rem;
+	height: 0.6rem;
+	border-radius: 0.5rem;
+	border:1px solid #34D2AF;
+	background-image: url("../img/xiangqing/gj_xin.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 60%;
+}

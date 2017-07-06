@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/zjh_main.css">
+    <link rel="stylesheet" href="{CSS_PATH}/zjh_base.css">
+    <script src="{JS_PATH}/rem.js"></script>
+    <script src="{JS_PATH}/jQuery.js"></script>
+    <script src="{JS_PATH}/jquery.validate.js"></script>
+    <script src="{JS_PATH}/header.js"></script>
+</head>
+<body>
+<div class="zjh_Reg">
+    <form class="Regbox">
+        <div class="account">
+            <span></span>
+            <input type="text"  name="mname"  placeholder="请输入用户名">
+        </div>
+        <div class="phone">
+            <span></span>
+            <input type="text"  name="telphone"  class="telphone" placeholder="请绑定手机号方便找回密码">
+        </div>
+        <div class="password">
+            <span></span>
+            <input type="password"  name="mpass" class="mpass" placeholder="请输入数字字母组合的六位密码">
+        </div>
+        <div class="password">
+            <span></span>
+            <input type="password"  name="mpass1" id="mpass1" placeholder="请再次输入密码">
+        </div>
+        <button class="Regbtn willReg">
+            立即注册
+        </button>
+    </form>
+</div>
+</body>
+<script>
+    $.extend($.validator.messages, {
+        required:"不能为空!"
+    })
+    $(".Regbox").validate({
+        rules:{
+            mname:{
+                required:true,
+            },
+            telphone:{
+                required:true,
+            },
+            mpass:{
+                required:true,
+            },
+            mpass1:{
+                required:true,
+                equalTo:".mpass"
+            },
+        },
+        messages:{
+          mpass1:"两次密码输入不一致"
+        },
+        debug:true
+    })
+
+</script>
+</html>

@@ -1,0 +1,54 @@
+#ldd_header{
+    width: 100%;
+    height:0.88rem;
+    background-color: #34d2af;
+    position: fixed;
+    top:0;
+}
+#ldd_header ul li{
+    float: left;
+    line-height: 0.88rem;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+}
+#ldd_header ul li img{
+    width:0.58rem;height:0.58rem;
+    vertical-align: middle;
+}
+#ldd_header .cancle,#ldd_header .next{
+    font-size:0.3rem;
+}
+#ldd_header .cancle{
+    left: 0.25rem;
+    color: #575757;
+}
+#ldd_header .title{
+    font-size:0.4rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: #e1fcf3;
+}
+#ldd_header .next{
+    right: 0.25rem;
+    color: #f5f5f5;
+
+}
+#ldd_header .next div{
+    width: 1.27rem;
+    height:0.49rem ;
+    background-color: #72e9cf;
+    border-radius: 0.245rem;
+    border:1px solid #f5f5f5;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin:auto;
+    line-height: 0.49rem;
+}
+#ldd_header .next img{
+    right: 0;
+}
+

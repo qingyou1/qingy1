@@ -1,0 +1,83 @@
+body,h3,h1,h2{
+    padding:0;margin:0;
+    list-style: none;
+    font-weight: normal;
+}
+header{
+    width:100%;
+    height:44px;
+    background: orange;
+    line-height: 44px;
+}
+
+header .title{
+    float:left;
+    margin-left:20px;
+}
+header .login{
+    float:right;
+    margin-right:20px;
+}
+
+form{
+    background: #fff;
+    position: fixed;
+    left:0;;top:0;right:0;bottom: 0;
+    margin:auto;width:300px;height:300px;border:1px solid #ccc;
+    padding:10px;border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+}
+form .title{
+    height:30px;
+    line-height: 30px;
+
+    text-align: center;
+    margin-bottom:10px;
+}
+
+.loginBox{
+    display: none;
+}
+.closeBtn{
+    width:20px;height:20px;
+    border:1px solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    right:5px;top:5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    box-shadow: 0 0 5px #333;
+}
+.regBox{
+    height:370px;display: none;
+}
+.errorMessage{
+    width:100%;height:44px;
+    background: #222;
+    position: absolute;
+    left:0;top:0;
+    text-align: center;
+    line-height: 44px;
+    opacity: 0;
+    display: none;
+    animation: opacity 2s linear;
+    color:#fff;
+}
+
+@keyframes opacity {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}

@@ -1,0 +1,301 @@
+<?php
+/* Smarty version 3.1.30, created on 2017-07-05 19:08:22
+  from "F:\wampserver\wamp\www\php\qingyou\template\index\gj_index.html" */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.30',
+  'unifunc' => 'content_595d1d06c604b0_18560245',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'e9dc87d2d7d05756280c3fdd8b717f2de38f1903' => 
+    array (
+      0 => 'F:\\wampserver\\wamp\\www\\php\\qingyou\\template\\index\\gj_index.html',
+      1 => 1499274062,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_595d1d06c604b0_18560245 (Smarty_Internal_Template $_smarty_tpl) {
+?>
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no">
+	<title>游记首页</title>
+	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/basic.css" />
+	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/gj_index.css" />
+	<link rel="stylesheet" href="<?php echo CSS_PATH;?>
+/swiper.min.css" />
+	<?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo JS_PATH;?>
+/jQuery.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo JS_PATH;?>
+/rem.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo JS_PATH;?>
+/iscroll.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ type="text/javascript" src="<?php echo JS_PATH;?>
+/swiper.min.js"><?php echo '</script'; ?>
+>
+</head>
+<body >
+	<header>首页</header>
+	<div id="wrapper" style="background: #f6f6f6">
+		<ul>
+			<li>
+				<!--banner图-->
+				<div class="banner">
+			<div class="neikuan">
+				<div class="banner1">
+					<img src="img/gj_yuan1.png" alt="" />
+				</div>
+				<div class="banner2">
+					<img src="img/gj_yuan1.png" alt="" />
+				</div>
+				 <div class="banner3 swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="img/gj_banner2.png" alt="" />	</div>
+            <div class="swiper-slide"><img src="img/gj_banner1.png" alt="" />	</div>
+            <div class="swiper-slide"><img src="img/gj_banner2.png" alt="" />	</div>
+            <div class="swiper-slide"><img src="img/gj_banner1.png" alt="" />	</div>
+            <div class="swiper-slide"><img src="img/gj_banner2.png" alt="" />	</div>
+            <div class="swiper-slide"><img src="img/gj_banner1.png" alt="" />	</div>
+            <div class="swiper-slide"><img src="img/gj_banner2.png" alt="" />	</div>
+        </div>
+    </div>
+		</div></li>
+			<li>
+				<!--专题游记-->
+				<div class="gj_youji">
+			<div class="neikuan">
+				<div class="yj_header">
+					<div class="yj_tit">
+					<img src="img/gj_heart-9-@2x.png" alt="" />
+					<div class="timu">专题游记</div>
+					</div>
+					<div class="yj_tit1">Special travel</div>
+						<div class="xian"></div>
+				</div>
+				<div class="yj_img swiper-container">
+					<div class="swiper-wrapper">
+					<div class="gj_bj swiper-slide">
+					<img src="img/gj_hua1.png" alt="" />
+					<div class="intro">
+						<p>
+							【西班牙经典圣地】辉煌的航海史，曾经           那些满载着黄金白银的船...
+						</p>
+					</div>
+					<div class="fengexian"></div>
+					<div class="des">
+						<div class="touxiang">
+							<img src="img/gj_touxiang2.png" alt="" />
+							<span>四处奔跑</span>	
+						</div>
+
+						<div class="dingwei">
+							<img src="img/gj_dingwei.png" alt="" />
+							<span>西班牙</span>
+						</div>
+
+					</div>
+					</div>
+					
+					<div class="gj_bj swiper-slide">
+					<img src="img/gj_hua1.png" alt="" />
+					<div class="intro">
+						<p>
+							【西班牙经典圣地】辉煌的航海史，曾经           那些满载着黄金白银的船...
+						</p>
+					</div>
+					<div class="fengexian"></div>
+					<div class="des">
+						<div class="touxiang">
+							<img src="img/gj_touxiang2.png" alt="" />
+							<span>四处奔跑</span>	
+						</div>
+
+						<div class="dingwei">
+							<img src="img/gj_dingwei.png" alt="" />
+							<span>西班牙</span>
+						</div>
+
+					</div>
+					</div>
+					
+					
+					<div class="gj_bj swiper-slide">
+					<img src="img/gj_hua1.png" alt="" />
+					<div class="intro">
+						<p>
+							【西班牙经典圣地】辉煌的航海史，曾经           那些满载着黄金白银的船...
+						</p>
+					</div>
+					<div class="fengexian"></div>
+					<div class="des">
+						<div class="touxiang">
+							<img src="img/gj_touxiang2.png" alt="" />
+							<span>四处奔跑</span>	
+						</div>
+
+						<div class="dingwei">
+							<img src="img/gj_dingwei.png" alt="" />
+							<span>西班牙</span>
+						</div>
+
+					</div>
+					</div>
+					
+					
+					</div>
+					<!-- Add Pagination -->
+        <div class="swiper-pagination" ></div>
+				</div>
+			</div>
+		</div></li>
+		
+		<!--图-->
+		<li>
+			<div class="image"></div>
+		</li>
+		
+		<!--精选游记-->
+		<li>
+			<div class="jx_yj">
+				<div class="neikuan">
+					<div class="yj_header" style="position: relative;">
+					<div class="yj_tit">
+					<img src="img/gj_heart-9-@2x.png" alt="" />
+					<div class="timu">精选游记</div>
+					</div>
+					<div class="yj_tit1">Special travel</div>
+						<div class="xian"></div>
+						<div class="more">
+							<img src="img/gj_gengduo.png" alt="" />
+						</div>
+				</div>
+				</div>
+				
+				<!--游记1-->
+				<div class="yj_list">
+					<div class="pic">
+						<img src="img/gj_tu1.png" alt="" />
+					</div>
+					<div class="con">
+						<div class="title">
+							<h4>海德堡/历史的沧桑</h4>
+							<span>THE HISTORY OF HEIDELBERG</span>
+							<div class="xian_green"></div>
+						</div>
+						<div class="neirong">
+							<p>青山绿水间的海德堡，石桥、古堡、白墙红瓦的老城建筑，充满浪漫和迷人的色彩...</p>
+						</div>
+					</div>
+					<div class="status">
+						<div class="zuozhe">
+							<img src="img/gj_touxiang1.png" alt="" />
+							<div class="name">
+								<span>帕里斯缇尼</span>
+								<span style="color: #fff;margin-top: -0.09rem;font-size: 0.18rem;display: block;">Dream to go to Dali</span>
+							</div>
+						</div>
+						<!--<div class="liuyan">
+							<img src="img/gj_touxiang3.png" alt="" />
+							<img src="img/gj_touxiang3.png" alt="" />
+							<img src="img/gj_touxiang3.png" alt="" />
+							<img src="img/gj_touxiang3.png" alt="" />
+						</div>-->
+						<div class="guanzhu">
+							<img src="img/gj_zan.png" alt="" />
+							<span>2333</span>
+						</div>
+						<div class="guanzhu">
+							<img src="img/gj_zan.png" alt="" />
+							<span>533</span>
+						</div>
+					</div>
+				</div>
+			
+			<!--游记1-->
+				<div class="yj_list">
+					<div class="pic">
+						<img src="img/gj_tu1.png" alt="" />
+					</div>
+					<div class="con">
+						<div class="title">
+							<h4>海德堡/历史的沧桑</h4>
+							<span>THE HISTORY OF HEIDELBERG</span>
+							<div class="xian_green"></div>
+						</div>
+						<div class="neirong">
+							<p>青山绿水间的海德堡，石桥、古堡、白墙红瓦的老城建筑，充满浪漫和迷人的色彩...</p>
+						</div>
+					</div>
+					<div class="status">
+						<div class="zuozhe">
+							<img src="img/gj_touxiang1.png" alt="" />
+							<div class="name">
+								<span>帕里斯缇尼</span>
+								<span style="color: #fff;margin-top: -0.09rem;font-size: 0.18rem;display: block;">Dream to go to Dali</span>
+							</div>
+						</div>
+						<!--<div class="liuyan">
+							<img src="img/gj_touxiang3.png" alt="" />
+							<img src="img/gj_touxiang3.png" alt="" />
+							<img src="img/gj_touxiang3.png" alt="" />
+							<img src="img/gj_touxiang3.png" alt="" />
+						</div>-->
+						<div class="guanzhu">
+							<img src="img/gj_zan.png" alt="" />
+							<span>2333</span>
+						</div>
+						<div class="guanzhu">
+							<img src="img/gj_zan.png" alt="" />
+							<span>533</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
+
+	</div>
+	
+	<!--</div>-->
+	<footer></footer>
+	
+</body>
+</html>
+<?php echo '<script'; ?>
+ type="text/javascript">
+	var myScroll;
+    myScroll = new IScroll('#wrapper');	
+	var swiper = new Swiper('.swiper-container',{
+		pagination: '.swiper-pagination',
+        effect: 'coverflow',
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: 'auto',
+        coverflow: {
+            rotate: 50,
+//          stretch: 0,
+//          depth: 100,
+//          modifier: 1,
+            slideShadows : true
+        }
+	});
+<?php echo '</script'; ?>
+>
+<?php }
+}

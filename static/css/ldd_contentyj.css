@@ -1,0 +1,99 @@
+#ldd_body {
+    margin-top: 0.88rem;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 0.35rem;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    position: relative;
+}
+#ldd_body .title{
+    font-size: 0.3rem;
+    color: #191919;
+    margin-bottom: 0.2rem;
+}
+#ldd_body .content{
+    font-size: 0.24rem;
+    line-height: 0.36rem;
+    color:#616161;
+    margin-bottom: 0.2rem;
+    letter-spacing: 0.025rem;
+}
+#ldd_body ul li{
+    margin-bottom: 0.2rem;
+}
+#ldd_body .pic{
+    background-color: red;
+    width:7.02rem;
+    height: 3.34rem;
+    margin:0 auto;
+    border-radius: 0.2rem;
+}
+.success-zz{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    background-color: rgba(52, 210, 175, 0.62);
+    display: none;
+    padding-top: 2.98rem;
+}
+.success-zz .success{
+    width:7.02rem;
+    height:4.03rem;
+    margin:0 auto;
+    background-color: #fff;
+    border-radius: 0.1rem;
+    position: relative;
+}
+.success-zz .success img{
+    width:1.55rem;
+    height: 1.2rem;
+    position: absolute;
+    left:0;
+    right:0;
+    margin:auto;
+    top:-0.5rem;
+}
+.success-zz .success-info{
+    width:100%;
+    height:2.5rem;
+    font-size:0.48rem ;
+    color:#34c7a6;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.success-zz .success .success-button{
+    height:1.53rem;
+    overflow: hidden;
+}
+.success-zz .success .success-button ul{
+    overflow: hidden;
+}
+.success-zz .success .success-button ul li{
+    width: 50%;
+    float: left;
+}
+.success-zz .success .success-button ul li div{
+    width:2.14rem;
+    height:0.66rem;
+    border-radius:0.33rem;
+    background-color: yellow;
+    margin:0 auto;
+    margin-top:0.4rem;
+    text-align: center;
+    line-height: 0.66rem;
+    font-size: 0.3rem;
+}
+.success-zz .success .success-button ul li div.showbtn{
+    background-color: #fff;
+    color:#fbd128;
+    border:2px solid #fbd128;
+    line-height: 0.6rem;
+}
+.success-zz .success .success-button ul li div.backbtn{
+    background-color: #fbd128;
+    color:#fff;
+}

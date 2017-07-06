@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/basic.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="js/jQuery.js"></script>
+    <script src="js/rem.js"></script>
+</head>
+<body>
+<div class="zhezhao" style=""></div>
+<footer id="ldd_footer">
+    <ul>
+        <li>
+            <a href="">
+                <img src="img/ldd_shouye.png" alt="">
+                <p>首页</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/ldd_faxian.png" alt="">
+                <p>发现</p>
+            </a>
+        </li>
+        <li>
+            <img src="img/ldd_fabu.png" alt="" class="on">
+        </li>
+        <li>
+            <a href="">
+                <img src="img/ldd_gonglue.png" alt="">
+                <p>攻略</p>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <img src="img/ldd_wd.png" alt="">
+                <p>我的</p>
+            </a>
+        </li>
+    </ul>
+    <div class="fabulist">
+        <div class="list">
+            <a href="">
+                <img src="img/ldd_yj.png" alt="">
+            </a>
+        </div>
+        <div class="list">
+
+            <div class="left">
+                <a href="">
+                    <img src="img/ldd_zb.png" alt="">
+                </a>
+            </div>
+
+
+            <div class="right">
+                <a href="">
+                    <img src="img/ldd_dw.png" alt="">
+                </a>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+<script>
+    $(function () {
+        var flag = 1;
+        $(".on").click(function () {
+            if(flag){
+                $(".fabulist").addClass("animated").addClass("bounceInUp").css("display","block");
+                $(".zhezhao").addClass("animated").addClass("bounceInUp").css("display","block");
+                flag = 0;
+            }else{
+                $(".fabulist").removeClass("bounceInUp").css("display","none");
+                $(".zhezhao").removeClass("bounceInUp").css("display","none");
+                flag = 1;
+            }
+        })
+    })
+
+</script>
+</html>
